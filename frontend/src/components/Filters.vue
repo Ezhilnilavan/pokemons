@@ -8,7 +8,7 @@ Filter component contains all search inputs fields
         <div class="col-md-12 mx-auto">
             <div class="row">
                 <div class="col-sm-12 col-md-6 col-lg-6 ">
-                    <input autocomplete="off" type="text" class="form-control" v-model="searchNameValue" id="inputFirstname" placeholder="First name">
+                    <input autocomplete="off" type="text" class="form-control" v-model="searchNameValue" id="inputFirstname" placeholder="Search">
                 </div>
                 <div class="col-sm-8 col-md-4 col-lg-4">
                     <select class="form-control" v-model="searchTypeValue">
