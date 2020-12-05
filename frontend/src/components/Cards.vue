@@ -17,10 +17,8 @@ Card component hold all Pokemons details (image, name, types, etc) component bas
             </div>
         </div>
         <div :class="(getViewStatus)? 'row no-gutters grey-bg': 'row container no-gutters grey-bg'">
-           <div class="col-1 text-left list-view" v-show="getViewStatus">
-               <router-link :to="`/details/${cardData.id}`">
-                    <img class="card-img" :src="cardData.image" :alt="cardData.name">
-               </router-link>
+           <div class="col-1 text-left list-view" v-show="getViewStatus">              
+                   <img class="card-img" :src="cardData.image" :alt="cardData.name">               
             </div>
             <div class="col-10 name-text text-left">
                 <h6 class="m-alternate">{{cardData.name}}</h6>
